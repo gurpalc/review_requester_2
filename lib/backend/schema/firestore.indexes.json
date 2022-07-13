@@ -1,0 +1,18 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "UserUpdate",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "business_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "time",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
